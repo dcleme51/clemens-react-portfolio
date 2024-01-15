@@ -1,8 +1,9 @@
 import React from 'react';
-
+import myPic from "./images/IMG_0202.jpg"
 const Home = () => (
   <div>
-    <h1>Home Page</h1>
+    <h1>Welcome to my portfolio!</h1>
+    <img src={myPic} alt="Picture of me" height="170px" width="170px"></img>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit,
       lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi ac dui
